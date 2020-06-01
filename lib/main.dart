@@ -564,7 +564,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         return ListTile(
                           leading: CircleAvatar(
                             backgroundColor: Colors.indigo,
-                            child: new Text(snapshot.data.data[index].name[0]),
+                            child: new Text(snapshot.data.data[index].symbol),
                           ), // get the first letter of each crypto with the color
                           title: Text(snapshot.data.data[index].name), //title to be name of the crypto
                           subtitle: Text("\$"+
