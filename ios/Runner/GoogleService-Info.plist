@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>580844013316-8mcad047l9h0slp7dgik9j1g7rbm3e4v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.580844013316-8mcad047l9h0slp7dgik9j1g7rbm3e4v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCCPCckb1aseoqnXWRFuC7az7EZ8SkBOzc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>580844013316</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.bachelor</string>
+	<key>PROJECT_ID</key>
+	<string>bachelorprosjekt-bdb00</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bachelorprosjekt-bdb00.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:580844013316:ios:c2f15c41a19f7a6e6e7251</string>
+	<key>DATABASE_URL</key>
+	<string>https://bachelorprosjekt-bdb00.firebaseio.com</string>
+</dict>
+</plist>

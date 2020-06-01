@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "580844013316",
+    "firebase_url": "https://bachelorprosjekt-bdb00.firebaseio.com",
+    "project_id": "bachelorprosjekt-bdb00",
+    "storage_bucket": "bachelorprosjekt-bdb00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580844013316:android:e28cf8f75f5c44ec6e7251",
+        "android_client_info": {
+          "package_name": "com.example.bachelor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580844013316-ukk2da6gjpikamvr3lqftg59a4h6i5fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ5ADaFs7uQvVDAiFTYJRDXjLsl8ab-Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580844013316-ukk2da6gjpikamvr3lqftg59a4h6i5fl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "580844013316-8mcad047l9h0slp7dgik9j1g7rbm3e4v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bachelor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
