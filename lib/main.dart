@@ -480,9 +480,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'CryptoApp',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: new ThemeData(primaryColor: Colors.white),
       home: MyHomePage(title: 'Crypto price checker'),
     );
   }
@@ -535,7 +533,11 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text(widget.title),
+          title: Center(child: Text(widget.title, textAlign: TextAlign.center,)),
+           actions: <Widget>[
+            // will be used to view favourites
+            new IconButton(icon: const Icon(Icons.list)),
+          ],
         ),
         body: FutureBuilder(
             future: _future,
@@ -554,7 +556,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       style: TextStyle(color: Colors.red),
                     );
                   } else {
-                    return ListView.builder(
+                    return RefreshIndicator(
+                      child: ListView.builder(
                       padding: const EdgeInsets.all(16.0), //add some padding to make it look good
                       itemCount: snapshot.data.data.length,
                       itemBuilder: (context, index) {
@@ -568,9 +571,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             //subtitle is below title, get the price in 2 decimal places and set style to bold
                             snapshot.data.data[index].quote.usd.price.toStringAsFixed(3), style: _boldStyle,
                           ),
-                          trailing: FlutterLogo(),
+                          trailing: new IconButton(icon: Icon(Icons.favorite), onPressed: null),
                         );
-                      });
+                      }), onRefresh: getCryptoPrices);
+                    
                   }
               }
             }));
